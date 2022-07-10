@@ -2,7 +2,8 @@
 Чтобы запустить приложение
 - скачайте репозиторий
 - откройте проект в IDE
-- установите все предложенные библиотеки с помощью npm/yarn (Ant Design, Moment.js ...)
+- установите все предложенные библиотеки с помощью yarn (Ant Design, Moment.js, axios, @ant-design/icons, react-highlight-words)
+- установите craco `yarn add @craco/craco` и `yarn add craco-less`
 - запустите сервер `npm run server`
 - запустите react приложение `npm start`
 
