@@ -4,7 +4,7 @@
 - откройте проект в IDE
 - установите все предложенные библиотеки с помощью yarn (antd, Moment.js, axios, react-highlight-words...)
 - установите craco `yarn add @craco/craco` и `yarn add craco-less`
-- запустите сервер терминале 1`npm run server`
+- запустите сервер терминале 1 `npm run server`
 - запустите react приложение в терминале 2 `npm start`
 
 <img src="src/img/app-preview.png" alt="preview"/>
