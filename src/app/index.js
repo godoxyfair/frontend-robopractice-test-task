@@ -1,3 +1,11 @@
+import "./index.less"
+import TableLayout from "../component/TableLayout";
+
 export const App = () => {
-    return <h1>Hello</h1>
+
+    return (
+        <div className="App">
+            <TableLayout/>
+        </div>
+    )
 }
