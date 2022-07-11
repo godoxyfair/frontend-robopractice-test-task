@@ -8,7 +8,6 @@ import {CustomerServiceOutlined, UserOutlined} from "@ant-design/icons";
 const TableLayout = () => {
     const { Header, Content, Footer } = Layout;
     return (
-        <div>
             <Layout className="layout">
                 <Header style={{background: "black"}}>
                     <img className="logo" src={logoRMD} alt="RMDLogo"/>
@@ -18,7 +17,7 @@ const TableLayout = () => {
                     <Menu style={{margin: "20px", justifyContent: 'center', background: "black",}}
                           theme="dark"
                           mode="horizontal"
-                          defaultSelectedKeys={['5']}
+                          defaultSelectedKeys={['6']}
                           items={new Array(12).fill(null).map((_, index) => {
                               const key = index + 1;
                               return {
@@ -34,7 +33,6 @@ const TableLayout = () => {
                     <CustomerServiceOutlined className={'icon'} style={{ fontSize: '25px',margin: '5px'}} />
                 </Footer>
             </Layout>
-        </div>
     );
 };
 
