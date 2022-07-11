@@ -22,9 +22,11 @@ const Tables = () => {
     //Заполняем массив датами календаря для получания dataIndex и обработки users
     //Fill the array with calendar dates to get dataIndex and process users in table
     for(var trueArrayDays=[],dt=new Date("2021-05-01");
-        dt<=new Date("2021-05-31"); dt.setDate(dt.getDate()+1)){
-        trueArrayDays.push(new Date(dt).toISOString().slice(0,10));
-    }
+        dt <= new Date("2021-05-31");
+        dt.setDate(dt.getDate() + 1)){
+        trueArrayDays.push(new Date(dt).toISOString().slice(0, 10));
+        }
+
     const [data, setData] = useState([])
     //used data transformation hook
     const tableReadyData = useDataUsersTransform(data, trueArrayDays);
